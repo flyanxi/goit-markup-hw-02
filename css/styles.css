@@ -3,20 +3,10 @@ body {
     color: #434455;
     background-color: #ffffff;
 }
-a {
-    text-decoration: none;
-    color: inherit;
-}
-ul,
-ol {
-    list-style: none;
-    margin: 0;
-    padding: 0
-}
-img {
-    display: block;
-    max-width: 100%;
-    height: auto;
+.conteiner {
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
 }
 .logo {
     font-family: "Raleway", sans-serif;
@@ -28,12 +18,94 @@ img {
     letter-spacing: 0.03;
 }
 .logo-span {
-    font-family: "Raleway", sans-serif;
     color: #4D5AE5;
-    text-decoration: uppercase;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03;
 }
-
+.nav-list a {
+    font-weight: 500;
+    color: #2E2F42;
+    text-decoration: none;
+    line-height: 1.5;
+    transition: color 250ms ease;
+}
+.nav-list a:hover,
+.nav-list a:focus {
+    color: #404BBF;
+}
+.contacts {
+    font-style: normal;
+}
+.contacts a {
+    color: #434455;
+    text-decoration: none;
+    line-height: 1.5;
+    transition: color 250ms ease;
+}
+.contacts a:hover,
+.contacts a:focus {
+    color: #404BBF;
+}
+.hero {
+    background-color: #2E2F42;
+}
+.hero-title {
+    font-size: 56px;
+    line-height: 1.07;
+    font-weight: 700;
+    color: #ffffff;
+}
+.hero-button {
+    font-family: inherit;
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 500;
+    color: #ffffff;
+    background-color: #4D5AE5;
+    cursor: pointer;
+    border: none;
+    transition: background-color 250ms ease;
+}
+.hero-button a:hover,
+.hero-button a:focus {
+    background-color: #404BBF;
+}
+.section-title {
+    font-weight: 700;
+    color: #2E2F42;
+}
+.features-text {
+    line-height: 1.5;
+}
+.team {
+    background-color: #F4F4FD;
+}
+.team-name {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    color: #2E2F42;
+}
+.team-position {
+    line-height: 1.5;
+}
+.portfolio-content {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    color: #2E2F42;
+}
+.portfolio-category {
+    line-height: 1.5;
+}
+.footer {
+    background-color: #2E2F42;
+}
+.footer .logo {
+    color: #F4F4FD;
+}
+.footer .logo-span {
+    color: #4D5AE5;
+}
+.footer-text {
+    color: #F4F4FD;
+    line-height: 1.5;
+}

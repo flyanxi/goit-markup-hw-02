@@ -96,6 +96,7 @@ body {
 }
 .team-item {
     background-color: #ffffff;
+    text-align: center;
 }
 .team-name {
     font-weight: 500;
@@ -155,10 +156,7 @@ ul {
 address, .contacts-link {
     font-style: normal;
 }
-.team-item {
-    background-color: #ffffff;
-    text-align: center;
-}
+
 .team-name,
 .team-position {
     text-align: center;

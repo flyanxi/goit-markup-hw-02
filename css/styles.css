@@ -16,29 +16,30 @@ body {
 .logo-span {
     color: #4D5AE5;
 }
-.nav-list a {
+.nav-link {
     font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 0.02em;
     color: #2E2F42;
     text-decoration: none;
     line-height: 1.5;
     transition: color 250ms ease;
 }
-.nav-list a:hover,
-.nav-list a:focus {
-    color: #404BBF;
+.nav-link:hover,
+.nav-link:focus {
+    color: #404bbf;
 }
-.contacts {
-    font-style: normal;
-}
-.contacts a {
+.contacts-link {
+    font-size: 16px;
+    letter-spacing: 0.02em;
     color: #434455;
     text-decoration: none;
     line-height: 1.5;
     transition: color 250ms ease;
 }
-.contacts a:hover,
-.contacts a:focus {
-    color: #404BBF;
+.contacts-link:hover,
+.contacts-link:focus {
+    color: #404bbf;
 }
 .hero {
     background-color: #2E2F42;
@@ -70,34 +71,37 @@ body {
 }
 .section-title {
     font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+    text-align: center;
+}
+.card-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
     color: #2E2F42;
 }
 .features-text {
     font-size: 16px;
+    font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-}
-.features-item h3 {
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 1.3;
-    letter-spacing: 0.02em;
-    color: #2E2F42;
 }
 .team {
     background-color: #F4F4FD;
 }
 .team-item {
-    background-color: #ffffff; /* белый фон для картки */
-    padding: 20px;
-    border-radius: 8px;
-    text-align: center;
+    background-color: #ffffff;
 }
 .team-name {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
+    letter-spacing: 0.02em;
     color: #2E2F42;
 }
 .team-position {
@@ -111,7 +115,8 @@ body {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
-    color: #2E2F42;
+    letter-spacing: 0.02em;
+    color: #2E2F42
 }
 .portfolio-category {
     font-weight: 400;
@@ -124,12 +129,7 @@ body {
     background-color: #2E2F42;
     text-align: center;
 }
-.footer .logo {
-    color: #F4F4FD;
-}
-.footer .logo-span {
-    color: #4D5AE5;
-}
+
 .footer-text {
     font-size: 16px;
     line-height: 1.5;
@@ -138,44 +138,4 @@ body {
 }
 ul {
     list-style: none;
-}
-.nav-link {
-    font-weight: 500;
-    font-size: 16px;
-    letter-spacing: 0.02em;
-    color: #2E2F42;
-    text-decoration: none;
-    line-height: 1.5;
-    transition: color 250ms ease;
-}
-.nav-link:hover,
-.nav-link:focus {
-    color: #404bbf;
-}
-.contacts-link {
-    font-size: 16px;
-    letter-spacing: 0.02em;
-    color: #434455;
-    text-decoration: none;
-    line-height: 1.5;
-    transition: color 250ms ease;
-}
-.contacts-link:hover,
-.contacts-link:focus {
-    color: #404bbf;
-}
-.features-item h3.section-title {
-    font-weight: 700;
-    font-size: 20px; 
-    line-height: 1.3;
-    letter-spacing: 0.02em;
-    color: #2E2F42;
-}
-section h2.section-title {
-    font-weight: 700;
-    font-size: 36px; /* размер для крупных секций */
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2E2F42;
-    text-align: center;
 }
